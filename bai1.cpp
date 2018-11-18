@@ -8,7 +8,7 @@ int main() {
 
   printf("Nhap chieu dai: ");
   scanf("%f", &l);
-  // If input is a float and therefore has decimal part, it will not be equal to its integer conversion (in this case stored in 'check')
+  // If input is a float and therefore has decimal part, it will not be equal to its integer conversion (in this case stored in 'checker')
   // Can't compare int to float so have to use subtraction
   checker = l;
   while (l - checker != 0||l <= 0) {
